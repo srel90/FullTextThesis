@@ -21,14 +21,16 @@
     <ListView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/listView" android:padding="10dp"/>
+            android:id="@+id/listView" android:padding="10dp" android:layout_weight="1"/>
     <FrameLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="wrap_content" >
         <Button
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
-                android:text="Exit"
-                android:id="@+id/btnexit" android:textSize="24sp" android:layout_gravity="center_horizontal|bottom"/>
+                android:text="Back"
+                android:id="@+id/btnexit" android:textSize="24sp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true" android:layout_gravity="center"/>
     </FrameLayout>
 </LinearLayout>

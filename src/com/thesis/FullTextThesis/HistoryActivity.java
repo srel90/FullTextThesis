@@ -2,6 +2,7 @@ package com.thesis.FullTextThesis;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.StrictMode;
 import android.util.Log;
@@ -121,8 +122,11 @@ public class HistoryActivity extends Activity {
 
                     // Get File Name from URL
                     String fileName = urlDownload.substring(urlDownload.lastIndexOf('/')+1, urlDownload.length() );
-
-                    OutputStream output = new FileOutputStream("/mnt/sdcard/Download/"+fileName);
+                    File appname = new File(Environment.getExternalStorageDirectory()+"/Download");
+                    if(!appname.exists()){
+                        appname.mkdir();
+                    }
+                    OutputStream output = new FileOutputStream(Environment.getExternalStorageDirectory()+"/Download/"+fileName);
 
                     byte data[] = new byte[1024];
                     long total = 0;

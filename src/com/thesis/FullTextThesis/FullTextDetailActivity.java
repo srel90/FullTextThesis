@@ -3,6 +3,7 @@ package com.thesis.FullTextThesis;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
 import android.os.StrictMode;
 import android.util.Log;
@@ -129,8 +130,11 @@ public class FullTextDetailActivity extends Activity {
 
                     // Get File Name from URL
                     String fileName = urlDownload.substring(urlDownload.lastIndexOf('/')+1, urlDownload.length() );
-
-                    OutputStream output = new FileOutputStream("/mnt/sdcard/Download/"+fileName);
+                    File appname = new File(Environment.getExternalStorageDirectory()+"/Download");
+                    if(!appname.exists()){
+                        appname.mkdir();
+                    }
+                    OutputStream output = new FileOutputStream(Environment.getExternalStorageDirectory()+"/Download/"+fileName);
 
                     byte data[] = new byte[1024];
                     long total = 0;
@@ -152,7 +156,9 @@ public class FullTextDetailActivity extends Activity {
                     output.close();
                     input.close();
 
-                } catch (Exception e) {}
+                } catch (Exception e) {
+                    Log.e("error",e.getMessage());
+                }
 
 
             }

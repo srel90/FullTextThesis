@@ -36,12 +36,12 @@
     </TableLayout>
     <ListView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:id="@+id/listView" android:choiceMode="singleChoice"
-            android:padding="10dp"/>
+            android:padding="10dp" android:layout_weight="1"/>
     <FrameLayout
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="wrap_content">
         <Button
                 android:layout_width="300dp"
                 android:layout_height="wrap_content"
