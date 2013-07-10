@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#340040">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:src="@drawable/logo" android:layout_gravity="center"
+            android:paddingTop="10dp" android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/titleText"
+              android:layout_gravity="center" android:textSize="24sp"
+              android:textColor="#ffffff" android:id="@+id/textView"
+              android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Rajamangala University of Technology Phra Nakhon" android:id="@+id/textView3"
+              android:layout_gravity="center_horizontal|top" android:textSize="12sp" android:textColor="#ffffff"/>
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" android:layout_gravity="center" android:gravity="center_vertical|center_horizontal">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Username :"
+                    android:id="@+id/textView1" android:textColor="#ffffff" android:textSize="24sp"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtusername" android:width="150sp" android:inputType="text"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password :"
+                      android:id="@+id/textView2" android:textColor="#ffffff" android:textSize="24sp"/>
+            <EditText android:layout_width="wrap_content" android:layout_height="wrap_content"
+                      android:id="@+id/txtpassword" android:width="150sp"
+
+                      android:inputType="textPassword"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:id="@+id/btnlogin"
+                    tools:ignore="HardcodedText"/>
+            <Button
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="Exit"
+                    android:id="@+id/btnexit"
+                    tools:ignore="HardcodedText"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

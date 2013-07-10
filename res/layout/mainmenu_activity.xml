@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#340040"
+              >
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:src="@drawable/logo" android:layout_gravity="center"
+            android:paddingTop="10dp" android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/titleText"
+              android:layout_gravity="center" android:textSize="24sp"
+              android:textColor="#ffffff" android:id="@+id/textView"
+              android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Rajamangala University of Technology Phra Nakhon" android:id="@+id/textView1"
+              android:layout_gravity="center_horizontal|top" android:textSize="12sp" android:textColor="#ffffff"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:id="@+id/txtwelcome" android:layout_gravity="center" android:paddingBottom="20dp"
+            android:paddingTop="20dp" android:textColor="#ffffff" android:textSize="18sp"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Search"
+            android:id="@+id/btnsearch" android:textSize="24sp" android:layout_gravity="center"/>
+    <Button
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:id="@+id/btnhistory" android:textSize="24sp" android:layout_gravity="center"/>
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Exit"
+                android:id="@+id/btnexit" android:textSize="24sp" android:layout_gravity="center_horizontal|bottom"/>
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#340040">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView" android:src="@drawable/logo" android:layout_gravity="center"
+            android:paddingTop="10dp" android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/titleText"
+              android:layout_gravity="center" android:textSize="24sp"
+              android:textColor="#ffffff" android:id="@+id/textView"
+              android:paddingBottom="10dp"/>
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+              android:text="Rajamangala University of Technology Phra Nakhon" android:id="@+id/textView1"
+              android:layout_gravity="center_horizontal|top" android:textSize="12sp" android:textColor="#ffffff"/>
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:paddingTop="20dp">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtsearch" android:width="200sp"/>
+            <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Search"
+                    android:id="@+id/btnsearch" android:layout_gravity="center"/>
+        </TableRow>
+    </TableLayout>
+    <ListView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/listView" android:choiceMode="singleChoice"
+            android:padding="10dp"/>
+    <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <Button
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:text="Back"
+                android:id="@+id/btnback" android:textSize="24sp" android:layout_gravity="center_horizontal|bottom"/>
+    </FrameLayout>
+</LinearLayout>
