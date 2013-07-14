@@ -41,9 +41,6 @@
       </GlobalState>
     </option>
   </component>
-  <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="error" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" name="Default" comment="" />
     <ignored path="FullTextThesis.iws" />
@@ -51,17 +48,19 @@
     <file path="/strings.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373103525561" ignored="false" />
     <file path="/SplashScreenActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373105011563" ignored="false" />
     <file path="/fragment.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373104504324" ignored="false" />
-    <file path="/Dummy.txt" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373458872767" ignored="false" />
-    <file path="/MainMenuActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373122616243" ignored="false" />
+    <file path="/Dummy.txt" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373781891706" ignored="false" />
+    <file path="/MainMenuActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373788010857" ignored="false" />
     <file path="/a.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373109566244" ignored="false" />
     <file path="/loginscreen_activity.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373109600823" ignored="false" />
-    <file path="/LoginScreenActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373263778689" ignored="false" />
+    <file path="/LoginScreenActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373789266417" ignored="false" />
     <file path="/mainmenu_activity.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373114021134" ignored="false" />
     <file path="/SearchActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373263399379" ignored="false" />
     <file path="/search_column_activity.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373119853741" ignored="false" />
     <file path="/FullTextDetailActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373461467193" ignored="false" />
     <file path="/fulltextdetaillist_activity.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373260091083" ignored="false" />
     <file path="/HistoryActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373267056259" ignored="false" />
+    <file path="/about_Activity.xml" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373781989738" ignored="false" />
+    <file path="/AboutActivity.java" changelist="8921c446-bd4e-4097-9f5b-ee2cdfb9632d" time="1373786247609" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +125,31 @@
     <favorites_list name="FullTextThesis" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="LoginScreenActivity.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/LoginScreenActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="150" column="71" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.71348315">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loginscreen_activity.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/loginscreen_activity.xml">
+          <provider editor-type-id="text-editor">
+            <state line="59" column="0" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -136,22 +159,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/SplashScreenActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/MainMenuActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/search_column_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/fulltextdetaillist_activity.xml" />
-        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/SearchActivity.java" />
-        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/LoginScreenActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/fulltextdetaillisthistory_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/res/layout/loginscreen_activity.xml" />
-        <option value="$PROJECT_DIR$/res/layout/mainmenu_activity.xml" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/FullTextDetailActivity.java" />
         <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/HistoryActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/history_activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/about_Activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/about_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/layout/search_column_activity.xml" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fulltextdetaillist_activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/fulltextdetaillisthistory_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/MainMenuActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/mainmenu_activity.xml" />
         <option value="$PROJECT_DIR$/res/layout/fulltextdetail_activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/history_activity.xml" />
+        <option value="$PROJECT_DIR$/res/layout/loginscreen_activity.xml" />
         <option value="$PROJECT_DIR$/res/layout/search_activity.xml" />
+        <option value="$PROJECT_DIR$/src/com/thesis/FullTextThesis/LoginScreenActivity.java" />
       </list>
     </option>
   </component>
@@ -207,7 +230,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,26 +298,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FullTextThesis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="FullTextThesis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -500,10 +505,10 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="0" width="1346" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17211838" sideWeight="0.67077464" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24454829" sideWeight="0.67077464" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16900311" sideWeight="0.67253524" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24688473" sideWeight="0.67253524" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32943925" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,14 +523,14 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2535211" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.62852114" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.67077464" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19859813" sideWeight="0.74647886" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922536" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19859813" sideWeight="0.67253524" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3274648" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -565,7 +570,7 @@
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
-    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="false" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
     <option name="LIMIT_HISTORY" value="true" />
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
@@ -598,97 +603,50 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="52" selection-end="52" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fulltextdetaillisthistory_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1922" selection-end="1922" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/loginscreen_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="5" column="56" selection-start="324" selection-end="324" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/mainmenu_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="6" column="14" selection-start="0" selection-end="2484" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/LoginScreenActivity.java">
+    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/AboutActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="30" selection-start="3551" selection-end="3551" vertical-scroll-proportion="1.3284671">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/fulltextdetaillist_activity.xml">
-      <provider selected="true" editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider editor-type-id="text-editor">
-        <state line="5" column="4" selection-start="0" selection-end="1700" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="26" column="11" selection-start="900" selection-end="900" vertical-scroll-proportion="0.6875">
+          <folding>
+            <element signature="e#756#898#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="47" selection-start="153" selection-end="153" vertical-scroll-proportion="0.124087594">
+        <state line="10" column="78" selection-start="650" selection-end="650" vertical-scroll-proportion="0.7256098">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
+    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/MainMenuActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="61" column="0" selection-start="2762" selection-end="2762" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/HistoryActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="131" column="34" selection-start="5849" selection-end="5849" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
+    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/FullTextDetailActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="66" column="38" selection-start="2765" selection-end="2765" vertical-scroll-proportion="-0.39650145">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/search_column_activity.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/about_activity.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
+        <state line="72" column="58" selection-start="4211" selection-end="4211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -703,12 +661,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/search_activity.xml">
+    <entry file="file://$PROJECT_DIR$/res/layout/fulltextdetaillist_activity.xml">
       <provider selected="true" editor-type-id="android-designer">
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="42" column="46" selection-start="2351" selection-end="2351" vertical-scroll-proportion="0.0">
+        <state line="5" column="4" selection-start="0" selection-end="2220" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/fulltextdetaillisthistory_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -718,25 +686,66 @@
         <state />
       </provider>
       <provider editor-type-id="text-editor">
-        <state line="26" column="49" selection-start="1567" selection-end="1567" vertical-scroll-proportion="-4.04">
+        <state line="19" column="49" selection-start="901" selection-end="901" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/HistoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="34" selection-start="5849" selection-end="5849" vertical-scroll-proportion="0.66374266">
+    <entry file="file://$PROJECT_DIR$/res/layout/search_column_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="13" selection-start="13" selection-end="13" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/FullTextDetailActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/layout/search_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="35" column="46" selection-start="1685" selection-end="1685" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/mainmenu_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="6" column="14" selection-start="0" selection-end="2014" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/loginscreen_activity.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="59" column="0" selection-start="2929" selection-end="2929" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/thesis/FullTextThesis/LoginScreenActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="131" column="20" selection-start="5864" selection-end="6294" vertical-scroll-proportion="0.116959065">
+        <state line="150" column="71" selection-start="6334" selection-end="6334" vertical-scroll-proportion="0.71348315">
           <folding>
-            <element signature="e#1479#1504#0" expanded="true" />
-            <element signature="e#2896#2911#0" expanded="true" />
-            <element signature="e#5048#5063#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,7 +1,10 @@
 package com.thesis.FullTextThesis;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -42,6 +45,13 @@ public class MainMenuActivity extends Activity {
                 startActivity(newActivity);
             }
         });
+        findViewById(R.id.btnAbout).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent newActivity = new Intent(MainMenuActivity.this,AboutActivity.class);
+                startActivity(newActivity);
+            }
+        });
         findViewById(R.id.btnexit).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -49,5 +59,7 @@ public class MainMenuActivity extends Activity {
                 moveTaskToBack(true);
             }
         });
+
     }
+
 }

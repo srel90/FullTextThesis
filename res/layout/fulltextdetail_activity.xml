@@ -6,19 +6,14 @@
               android:layout_height="match_parent" android:background="#340040">
 
     <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView"
-               android:src="@drawable/logo" android:layout_gravity="center" android:paddingTop="10dp"
-               android:paddingBottom="10dp"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/titleText"
-              android:layout_gravity="center" android:textSize="24sp" android:textColor="#ffffff"
-              android:id="@+id/textView" android:paddingBottom="10dp"/>
-    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-              android:text="Rajamangala University of Technology Phra Nakhon" android:id="@+id/textView1"
-              android:layout_gravity="center_horizontal|top" android:textSize="12sp" android:textColor="#ffffff"/>
+               android:src="@drawable/logo" android:layout_gravity="center"
+            />
     <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Detail"
-            android:id="@+id/txtDetail" android:paddingLeft="10dp" android:paddingTop="20dp"/>
+            android:id="@+id/txtDetail" android:paddingLeft="10dp" android:paddingTop="20dp" android:textSize="18sp"
+            android:textStyle="bold"/>
     <ListView
             android:layout_width="match_parent"
             android:layout_height="match_parent"

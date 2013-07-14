@@ -2,7 +2,10 @@ package com.thesis.FullTextThesis;
 
 import android.app.Activity;
 import android.app.AlertDialog;
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.util.Log;
@@ -10,6 +13,7 @@ import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
 import android.widget.EditText;
+import android.widget.TextView;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -50,7 +54,11 @@ public class LoginScreenActivity extends Activity {
         final EditText txtUser = (EditText)findViewById(R.id.txtusername);
         final EditText txtPass = (EditText)findViewById(R.id.txtpassword);
         final AlertDialog.Builder ad = new AlertDialog.Builder(this);
-
+        if(!isNetworkConnected(this)){
+            ((TextView)findViewById(R.id.txtconnectStatus)).setText("Cannot connect to internet!");
+        }else{
+            ((TextView)findViewById(R.id.txtconnectStatus)).setText("Connected to internet.");
+        }
         findViewById(R.id.btnlogin).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -133,5 +141,11 @@ public class LoginScreenActivity extends Activity {
             e.printStackTrace();
         }
         return str.toString();
+    }
+    private boolean isNetworkConnected(Context context) {
+        ConnectivityManager connectivityManager
+                = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo activeNetworkInfo = connectivityManager.getActiveNetworkInfo();
+        return activeNetworkInfo != null && activeNetworkInfo.isAvailable() && activeNetworkInfo.isConnected() ;
     }
 }

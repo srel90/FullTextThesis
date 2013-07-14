@@ -5,7 +5,7 @@
 
     <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent" android:paddingTop="10dp">
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -17,10 +17,20 @@
                 android:layout_height="wrap_content"
                 android:text="Name" android:layout_weight="8"/>
         <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Size:"
+                android:id="@+id/textView1"/>
+        <TextView
                 android:id="@+id/Colfullfilefulltext_size"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Size" android:layout_weight="1"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="kb."
+                android:id="@+id/textView"/>
         <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -29,7 +39,7 @@
     </TableRow>
     <TableRow
             android:layout_width="fill_parent"
-            android:layout_height="fill_parent">
+            android:layout_height="fill_parent" android:paddingBottom="10dp">
         <ProgressBar
                 android:id="@+id/progressBar"
                 style="?android:attr/progressBarStyleHorizontal"

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent" android:background="#340040">
+
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/imageView"
+               android:src="@drawable/logo"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ผู้พัฒนาแอพพลิเคชั่น"
+            android:id="@+id/textView" android:layout_gravity="center"
+            android:textSize="24sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="นักศึกษา สทค.1/54"
+            android:id="@+id/textView1" android:layout_gravity="center" android:textSize="12sp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="มหาวิทยาลัยเทคโนโลยีราชมงคลพระนคร วิทยาเขตพระนครเหนือ"
+            android:id="@+id/textView2" android:layout_gravity="center" android:textSize="10sp"/>
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center" android:paddingTop="10dp">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:paddingTop="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView1" android:src="@drawable/dev1"/>
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent" android:paddingLeft="10dp">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="นางสาวนารีรัตน์ เพชรมุข  รหัส 055460201728-3"
+                        android:id="@+id/textView3" android:textSize="10sp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="E-mail : toon_nareerat@hotmail.co.th"
+                        android:id="@+id/textView5" android:textSize="10sp"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="phone : 0846514148"
+                        android:id="@+id/textView5" android:textSize="10sp"/>
+            </LinearLayout>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent" android:paddingTop="10dp">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageView2" android:src="@drawable/dev2"/>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent"
+                          android:layout_height="fill_parent" android:id="@+id/linearLayout" android:paddingLeft="10dp">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="นางสาวชนิษฐา พูนสุข  รหัส 055460201725-9" android:id="@+id/textView4"
+                          android:textSize="10sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="E-mail : nok_noi_jung@windowslive.com" android:id="@+id/textView6"
+                          android:textSize="10sp"/>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                          android:text="phone : 0849381672" android:id="@+id/textView7" android:textSize="10sp"/>
+            </LinearLayout>
+        </TableRow>
+    </TableLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/frameLayout">
+        <Button android:layout_width="300dp" android:layout_height="wrap_content" android:text="Back"
+                android:id="@+id/btnback" android:textSize="24sp" android:layout_gravity="center_horizontal|bottom"/>
+    </FrameLayout>
+</LinearLayout>
